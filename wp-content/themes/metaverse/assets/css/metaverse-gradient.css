@@ -1,0 +1,241 @@
+/**
+ * Metaverse Gradient CSS
+ * @package Metaverse
+ *
+**/
+
+/**
+ * Common
+ **/
+.section-header .section-title {
+	position: relative;
+}
+
+.site-title a {
+    color: #fff;
+}
+
+.section-header .section-subtitle,
+.site-title a:hover {
+    background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff !important;
+}
+
+.page-scroll-up {
+    background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+
+.site-title a:hover {
+    color: #fff;
+}
+
+.page-title-module {
+    background-position: bottom center !important;
+}
+
+/**
+ * Topbar
+ **/
+
+.topheader_bg {
+    background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+
+.header-top .header_btn a:hover {
+    background: linear-gradient(-90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+ 
+/**
+ * Slider
+ **/
+.slider-caption .subtitle {
+    border-color: #FD8963;
+}
+
+.thm-btn {
+	background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+
+
+/**
+ * Portfolio
+ **/
+
+.portfolio .post img {
+    border-radius: 50px;
+}
+
+.portfolio .post:hover figcaption,
+.portfolio-thumbnail .portfolio-icons a:hover {
+    background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+
+.portfolio .portfolio-thumbnail figcaption {
+    background-color: #1e1a34;
+}
+
+.portfolio .portfolio-thumbnail figcaption {
+    padding: 25px 25px 25px;
+}
+
+/**
+ * Service
+ **/
+.service .post:hover {
+	background: -webkit-linear-gradient(  90deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%);
+}
+
+body.theme-dark .service .post:hover {
+    background-color: var(--thm-gray-rgb) !important;
+}
+
+/**
+ * Testimonial
+ **/
+.client-name {
+    color: #FD8963;
+}
+
+.client-thumbnail img {
+    border-color: #FD8963;
+}
+
+
+/**
+ * Funfact
+ **/
+.funfact i.funfact-icon {
+	background: -webkit-linear-gradient(  90deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funfact-inner {
+    border-color: #FD8963;
+}
+
+/**
+ * Blog
+ **/
+.home-news img {
+	border-radius: 50px;
+}
+
+.home-news.blog .full-content {
+    background-color: #1e1a34;
+}
+
+.blog .news-date {
+    background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+
+.thm-btn:hover {
+    color: #fff;
+}
+
+body.theme-dark #section.site-content .blog .post .entry-header .entry-title a:hover,
+.blog .entry-title a:hover, .blog .entry-title a:focus {
+	background: linear-gradient(  90deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.site-content .byline .author:before,
+.site-content .comment:before,
+.fa-list:before {
+    background: linear-gradient(to bottom, #FDCE39 0%, #FD8963 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/** Index **/
+
+.site-content .blog .entry-meta a:hover {
+    background: linear-gradient(  90deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/**
+ * Team
+ **/
+.team-caption {
+    background-color: #1e1a34 !important;
+}
+.team-module:hover .team-caption {
+    background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+
+.team-module .team-social-icons a:hover {
+    background: -webkit-linear-gradient(  90deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%);
+}
+
+/**
+ * Woocommerce
+ **/
+.woocommerce a.button,
+.woocommerce-section .woocommerce-avatar figcaption,
+.woocommerce-avatar .woo-icons .woo-product-view {
+background-color: #1e1a34 !important;
+}
+.woocommerce a:hover,
+.woocommerce a.button:hover,
+.woocommerce-section .woocommerce-module:hover figcaption,
+.woocommerce span.onsale {
+    background: -webkit-linear-gradient(  90deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%);
+}
+
+
+ 
+
+/**
+ * Sponsers
+ **/
+.sponsors {
+	background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+
+/**
+ * Siderbar Widgets
+ **/
+.card-holder.base::before, .card-holder.base::after,
+.widget_search .search-submit {
+    background: linear-gradient(90.99deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+}
+
+.widget a:hover, .widget a:focus {
+    background: linear-gradient(  90deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+.widget_archive li a:before, .widget_categories li a:before {
+    background: linear-gradient(to bottom, #FDCE39 0%, #FD8963 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/**
+ * Footer 
+ **/
+.footer-copyrights .site-info a {
+    background: linear-gradient(  90deg, #FDCE39 0.27%, #FD8963 30%, #ED5174 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
